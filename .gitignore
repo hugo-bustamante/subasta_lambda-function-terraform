@@ -1,0 +1,32 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.dist-info/
+build/
+bin/
+*.zip
+
+# 🧪 Pytest
+.pytest_cache/
+
+# ⚙️ Entornos virtuales
+.env
+.venv/
+venv/
+
+# 🧠 IDEs y editores
+.vscode/
+.qodo
+
+# 🌐 Terraform
+*.tfstate
+*.tfstate.backup
+*.lock.hcl
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.lock.hcl
